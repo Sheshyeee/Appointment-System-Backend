@@ -7,9 +7,9 @@ use App\Mail\AppointmentStatusUpdated;
 use App\Models\ActivityLog;
 use App\Models\Appointment;
 use App\Models\ClinicSetting;
-use App\Models\Dentist;
+
 use App\Models\Notification;
-use App\Models\Service;
+
 use App\Models\User;
 use App\Services\SmsService;
 use Carbon\Carbon;

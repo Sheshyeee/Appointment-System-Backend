@@ -17,11 +17,11 @@ class DatabaseSeeder extends Seeder
     public function run(): void
     {
         User::updateOrCreate(
-            ['email' => 'dmbc2022-2141-53989@bicol-u.edu.ph'],
+            ['email' => 'clapisdave@gmail.com'],
             [
-                'name' => 'Admin',
+                'name' => 'dave',
                 'password' => Hash::make('admindave'),
-                'role' => 'admin',
+                'role' => 'patient',
                 'email_verified_at' => now(),
             ]
         );
